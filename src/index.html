@@ -3,78 +3,32 @@
 <head>
     <meta charset="utf-8">
     <!--引入自定义的css文件-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <link href="css/mainPage.css" rel="stylesheet" type="text/css"/>
+    <link href="css/about.css" rel="stylesheet" type="text/css"/>
+    <link href="css/map.css" rel="stylesheet" type="text/css"/>
 
 </head>
-<body ng-app="myApp" ng-controller="userCtrl">
+<body ng-app="myApp">
+<a ui-sref="login" ui-sref-active="active">回到登录界面</a>
+<a ui-sref="map" ui-sref-active="active"></a>
+<ui-view></ui-view>
 
-<div class="container">
-
-    <h3>Users</h3>
-
-    <table class="table table-striped">
-        <thead><tr>
-            <th>Edit</th>
-            <th>First Name</th>
-            <th>Last Name</th>
-        </tr></thead>
-        <tbody><tr ng-repeat="user in users">
-            <td>
-                <button class="btn" ng-click="editUser(user.id)">
-                    <span class="glyphicon glyphicon-pencil"></span>&nbsp;&nbsp;Edit
-                </button>
-            </td>
-            <td>{{ user.fName }}</td>
-            <td>{{ user.lName }}</td>
-        </tr></tbody>
-    </table>
-
-    <hr>
-    <button class="btn btn-success" ng-click="editUser('new')">
-        <span class="glyphicon glyphicon-user"></span> Create New User
-    </button>
-    <hr>
-
-    <h3 ng-show="edit">Create New User:</h3>
-    <h3 ng-hide="edit">Edit User:</h3>
-
-    <form class="form-horizontal">
-        <div class="form-group">
-            <label class="col-sm-2 control-label">First Name:</label>
-            <div class="col-sm-10">
-                <input type="text" ng-model="fName" ng-disabled="!edit" placeholder="First Name">
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-sm-2 control-label">Last Name:</label>
-            <div class="col-sm-10">
-                <input type="text" ng-model="lName" ng-disabled="!edit" placeholder="Last Name">
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-sm-2 control-label">Password:</label>
-            <div class="col-sm-10">
-                <input type="password" ng-model="passw1" placeholder="Password">
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-sm-2 control-label">Repeat:</label>
-            <div class="col-sm-10">
-                <input type="password" ng-model="passw2" placeholder="Repeat Password">
-            </div>
-        </div>
-    </form>
-
-    <hr>
-    <button class="btn btn-success" ng-disabled="error || incomplete">
-        <span class="glyphicon glyphicon-save"></span> Save Changes
-    </button>
+<div class="bottomText">
+    Copyright &copy武汉大学  &nbsp 技术支持：<a ui-sref="about" ui-sref-active="active">佳图实验室</a>  &nbsp 联系电话：027-8888888
 </div>
 
-<script src = "myUsers.js"></script>
 </body>
+<!--引入jQuery的js文件-->
+<script src="js/jquery.min.js"></script>
+<!--引入bootstrap的js文件-->
+<script src="js/bootstrap.min.js"></script>
 <!--引入angular的js文件-->
-<script src="scripts/angular.js"></script>
+<script src="js/angular.js"></script>
+<!--引入angular route的js文件-->
+<script src="js/angular-route.min.js"></script>
+<!--引入ui route的js文件-->
+<script src="js/angular-ui-router.min.js"></script>
 <!--引入自定义的js文件-->
-<script src="scripts/mainPage.js"></script>
+<script src="js/app.js"></script>
 </html>
