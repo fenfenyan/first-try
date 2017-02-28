@@ -12,7 +12,7 @@ app.controller('loginCtrl', function($scope,$rootScope) {
 
         if($scope.userName=="1" && $scope.userPass=="1"){
             $rootScope.$state.isLogin = true;
-            $rootScope.$state.go('map');
+            $rootScope.$state.go('tableView');
         }
         else{
             $scope.verify = true;
@@ -25,6 +25,7 @@ app.controller('loginCtrl', function($scope,$rootScope) {
         $scope.verify = false;
     };
 });
+
 app.run(function($rootScope, $state, $stateParams){
     $rootScope.$state = $state;
     $rootScope.$stateParams = $stateParams;
@@ -46,11 +47,11 @@ app.config(function($stateProvider,$urlRouterProvider) {
         controller:'aboutCtrl'
     };
 
-    var mapState = {
-        name: 'map',
-        url: '/map',
-        templateUrl : 'tpls/3dMap.html',
-        controller:'mapCtrl',
+    var tableViewState = {
+        name: 'tableView',
+        url: '/tableView',
+        templateUrl : 'tpls/tableView.html',
+        controller:'tableViewCtrl',
         controllerProvider : function($rootScope){
             if($rootScope.$state.isLogin == false){
                 $rootScope.$state.go('login');
@@ -61,13 +62,48 @@ app.config(function($stateProvider,$urlRouterProvider) {
 
     $stateProvider.state(loginState);
     $stateProvider.state(aboutState);
-    $stateProvider.state(mapState);
+    $stateProvider.state(tableViewState);
+});
+
+app.controller('aboutCtrl', function($scope, $http) {
+
+});
+
+app.controller('tableViewCtrl', function($scope, $http) {
+    $scope.showPerson=function(){
+        console.log("show me!");
+    };
+    $http.get("data/myData.php")
+        .success(function (response) {
+            $scope.tableTitle = response.title;
+            $scope.users = response.records;
+        });
+}).directive('hello', function () {
+    return{
+        restrict:'AE',
+        replace:true,
+        template:'<li class="list-group-item"  ng-click="showPerson()">个人信息</li>',
+        scope:true,
+        link: function (scope,elements) {
+            elements.bind('click', function () {
+                if( elements.css('background-color')=="rgb(173, 216, 230)"){
+                    elements.css('background-color','yellow');
+                }
+                else{
+                    elements.css('background-color','lightblue');
+                }
+            })}
+    }
+});
+// 用于将出生日期转化为年月日的过滤器
+app.filter('birthdayForm', function () {
+    return function (number) {
+        var year=number.substring(0,4);
+        var month=number.substring(5,6);
+        var date=number.substring(7,8);
+        return year+"年"+month+"月"+date+"日";
+    }
 });
 
 
-app.controller('mapCtrl', function($scope) {
 
-});
-app.controller('aboutCtrl', function($scope) {
-
-});

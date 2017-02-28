@@ -10,10 +10,17 @@
 
 </head>
 <body ng-app="myApp">
-<a ui-sref="login" ui-sref-active="active">回到登录界面</a>
-<a ui-sref="map" ui-sref-active="active"></a>
-<ui-view></ui-view>
+<a ui-sref="login" ui-sref-active="active"></a>
+<a ui-sref="tableView" ui-sref-active="active"></a>
+<!--顶部导航栏-->
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="navbar-header">
+        <a class="navbar-brand">增城市水利综合业务管理系统</a>
+    </div>
+</nav>
 
+<div ui-view></div>
+<!--底部信息-->
 <div class="bottomText">
     Copyright &copy武汉大学  &nbsp 技术支持：<a ui-sref="about" ui-sref-active="active">佳图实验室</a>  &nbsp 联系电话：027-8888888
 </div>
@@ -26,7 +33,7 @@
 <!--引入angular的js文件-->
 <script src="js/angular.js"></script>
 <!--引入angular route的js文件-->
-<script src="js/angular-route.min.js"></script>
+<!--<script src="js/angular-route.min.js"></script>-->
 <!--引入ui route的js文件-->
 <script src="js/angular-ui-router.min.js"></script>
 <!--引入自定义的js文件-->
