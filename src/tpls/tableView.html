@@ -1,0 +1,56 @@
+<style>
+    .list-group-item {
+        background-color: lightblue;
+    }
+    .ng-hide {
+        background-color: white;
+    }
+</style>
+
+<div ng-controller="tableViewCtrl">
+<div class="row" style="width:100%">
+    <div class="col-lg-2  col-md-4 col-sm-4 col-xs-12">
+        <ul class="list-group">
+            <hello></hello>
+            <!--<li class="list-group-item" ng-click="showPerson()" ng-hide="clickPerson">个人信息</li>-->
+            <li class="list-group-item">免费 Window 空间托管</li>
+            <li class="list-group-item">图像的数量</li>
+            <li class="list-group-item">24*7 支持</li>
+            <li class="list-group-item">每年更新成本</li>
+            <li class="list-group-item">折扣优惠</li>
+        </ul>
+    </div>
+    <div class="col-lg-10  col-md-8 col-sm-8 col-xs-12">
+        <div class="panel panel-default">
+            <div class="panel-heading" ng-model="tableTitle">
+                {{tableTitle}}
+            </div>
+            <div class="panel-body" ng-model="tableContent">
+
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th>用户名</th>
+                        <th>城市</th>
+                        <th>国家</th>
+                        <th>出生日期</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <!--使用ng-repeat，遍历所有的user-->
+                    <tr ng-repeat="user in users">
+                        <td>{{user.Name}}</td>
+                        <td>{{user.City}}</td>
+                        <td>{{user.Country}}</td>
+                        <td>{{user.birthday | birthdayForm}}</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</div>
