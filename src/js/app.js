@@ -70,29 +70,44 @@ app.controller('aboutCtrl', function($scope, $http) {
 });
 
 app.controller('tableViewCtrl', function($scope, $http) {
-    $scope.showPerson=function(){
-        console.log("show me!");
+    $scope.choose="个人信息";
+    $scope.toChild = function () {
+        //注册一个向下传播的事件，eventName:'FromSelf', data:oneObject
+        $scope.$broadcast("FromSelf", { chooseIndex:$scope.choose });
     };
     $http.get("data/myData.php")
         .success(function (response) {
             $scope.tableTitle = response.title;
             $scope.users = response.records;
         });
+    $scope.showPerson=function(){
+        //向右侧面板传递信息，改变右侧的表格
+        $scope.toChild();
+    };
+    
 }).directive('hello', function () {
     return{
         restrict:'AE',
         replace:true,
-        template:'<li class="list-group-item"  ng-click="showPerson()">个人信息</li>',
-        scope:true,
+        template:function(tElement,tAttrs){
+            var _html = '';
+            _html += '<li class="list-group-item" ng-click="showPerson()">'+tAttrs.title+'</div>';
+
+            return _html;
+        },
+        scope: true,
         link: function (scope,elements) {
             elements.bind('click', function () {
                 if( elements.css('background-color')=="rgb(173, 216, 230)"){
-                    elements.css('background-color','yellow');
+                    elements.css('background-color','rgb(230, 200, 200)');
                 }
                 else{
-                    elements.css('background-color','lightblue');
+                    elements.css('background-color','rgb(173, 216, 230)');
                 }
-            })}
+
+
+            });
+        }
     }
 });
 // 用于将出生日期转化为年月日的过滤器
@@ -103,6 +118,20 @@ app.filter('birthdayForm', function () {
         var date=number.substring(7,8);
         return year+"年"+month+"月"+date+"日";
     }
+});
+
+app.controller('tableContentCtrl', function($scope,$http){
+
+    //$on用于截获来自父级作用域的事件
+    $scope.$on("FromSelf", function (event, data) {
+        $http.get("data/myData.php")
+            .success(function (response) {
+                $scope.tableTitle = data.chooseIndex;
+                // $scope.tableTitle = response.title;
+                $scope.users = response.records;
+            });
+    });
+
 });
 
 

@@ -1,9 +1,6 @@
 <style>
     .list-group-item {
-        background-color: lightblue;
-    }
-    .ng-hide {
-        background-color: white;
+        background-color: rgb(173, 216, 230);
     }
 </style>
 
@@ -11,21 +8,20 @@
 <div class="row" style="width:100%">
     <div class="col-lg-2  col-md-4 col-sm-4 col-xs-12">
         <ul class="list-group">
-            <hello></hello>
-            <!--<li class="list-group-item" ng-click="showPerson()" ng-hide="clickPerson">个人信息</li>-->
-            <li class="list-group-item">免费 Window 空间托管</li>
-            <li class="list-group-item">图像的数量</li>
-            <li class="list-group-item">24*7 支持</li>
-            <li class="list-group-item">每年更新成本</li>
-            <li class="list-group-item">折扣优惠</li>
+            <hello title="个人信息"></hello>
+            <hello title="团队风采"></hello>
+            <hello title="年度总结"></hello>
+            <hello title="技术支持"></hello>
+            <hello title="定期汇报"></hello>
+            <hello title="联系我们"></hello>
         </ul>
     </div>
     <div class="col-lg-10  col-md-8 col-sm-8 col-xs-12">
-        <div class="panel panel-default">
+        <div class="panel panel-default" ng-controller="tableContentCtrl">
             <div class="panel-heading" ng-model="tableTitle">
                 {{tableTitle}}
             </div>
-            <div class="panel-body" ng-model="tableContent">
+            <div class="panel-body" ng-model="tableContent" >
 
                 <table class="table table-hover">
                     <thead>
