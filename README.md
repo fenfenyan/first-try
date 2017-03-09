@@ -13,3 +13,10 @@ I am learing coding to make preparation for jobs, wish me lucky!
 
 4. 自定义filter格式化数据
 
+5. 使用广播机制在父子级控制器中传递消息
+
+6. 自定义服务，注入到filter中使用
+
+7. 使用ui-router嵌套视图
+
+8. 自定义指令，子scope继承父scope
