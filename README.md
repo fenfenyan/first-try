@@ -17,6 +17,6 @@ I am learing coding to make preparation for jobs, wish me lucky!
 
 6. 自定义服务，注入到filter中使用
 
-7. 使用ui-router嵌套视图
+7. 使用ui-router嵌套多个视图
 
 8. 自定义指令，子scope继承父scope
