@@ -62,7 +62,7 @@ body,td,th {
     margin:20px;
 }
 .bottomText,.someText{
-     width:100%;
+     /*width:100%;*/
      position: fixed;
      bottom: 20px;
      z-index: 10;

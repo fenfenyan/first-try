@@ -1,0 +1,21 @@
+
+
+<table class="table table-hover" ng-controller="user1Ctrl">
+    <thead>
+    <tr>
+        <th>用户名</th>
+        <th>城市</th>
+        <th>国家</th>
+        <th>出生日期</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!--使用ng-repeat，遍历所有的user-->
+    <tr ng-repeat="user in users">
+        <td>{{user.Name}}</td>
+        <td>{{user.City}}</td>
+        <td>{{user.Country}}</td>
+        <td>{{user.birthday| birthdayForm}}</td>
+    </tr>
+    </tbody>
+</table>

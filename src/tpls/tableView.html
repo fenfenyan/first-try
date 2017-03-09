@@ -4,16 +4,16 @@
     }
 </style>
 
-<div ng-controller="tableViewCtrl">
+<div class="container-fluid" ng-controller="tableViewCtrl">
 <div class="row" style="width:100%">
     <div class="col-lg-2  col-md-4 col-sm-4 col-xs-12">
         <ul class="list-group">
-            <hello title="个人信息"></hello>
-            <hello title="团队风采"></hello>
-            <hello title="年度总结"></hello>
-            <hello title="技术支持"></hello>
-            <hello title="定期汇报"></hello>
-            <hello title="联系我们"></hello>
+            <hello name="个人信息"></hello>
+            <hello name="团队风采"></hello>
+            <hello name="年度总结"></hello>
+            <hello name="技术支持"></hello>
+            <hello name="定期汇报"></hello>
+            <hello name="联系我们"></hello>
         </ul>
     </div>
     <div class="col-lg-10  col-md-8 col-sm-8 col-xs-12">
@@ -22,26 +22,10 @@
                 {{tableTitle}}
             </div>
             <div class="panel-body" ng-model="tableContent" >
+                <a ui-sref=".user1" ui-sref-active="active"></a>
+                <a ui-sref=".user2" ui-sref-active="active"></a>
+                <div ui-view></div>
 
-                <table class="table table-hover">
-                    <thead>
-                    <tr>
-                        <th>用户名</th>
-                        <th>城市</th>
-                        <th>国家</th>
-                        <th>出生日期</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <!--使用ng-repeat，遍历所有的user-->
-                    <tr ng-repeat="user in users">
-                        <td>{{user.Name}}</td>
-                        <td>{{user.City}}</td>
-                        <td>{{user.Country}}</td>
-                        <td>{{user.birthday | birthdayForm}}</td>
-                    </tr>
-                    </tbody>
-                </table>
 
             </div>
         </div>

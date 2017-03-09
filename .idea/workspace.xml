@@ -24,48 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tableView.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tpls/tableView.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#table#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="86" column="4" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#49#0" expanded="false" />
-                <element signature="e#156#645#0" expanded="false" />
-                <element signature="e#699#817#0" expanded="false" />
-                <element signature="e#876#1715#0" expanded="false" />
-                <element signature="e#1771#1775#0" expanded="false" />
-                <element signature="e#3108#3313#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myData.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/myData.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="8" />
+            <state relative-caret-position="441">
+              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -74,11 +34,69 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tpls/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="103" selection-start-line="26" selection-start-column="84" selection-end-line="26" selection-end-column="103" />
+            <state relative-caret-position="646">
+              <caret line="40" column="106" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="106" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tableView.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tpls/tableView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="27" />
               <folding>
-                <element signature="n#style#0;n#span#0;n#div#2;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tpls/user2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="57" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tpls/user1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#49#0" expanded="false" />
+                <element signature="e#699#817#0" expanded="false" />
+                <element signature="e#876#2183#0" expanded="false" />
+                <element signature="e#2239#2243#0" expanded="false" />
+                <element signature="e#2951#3641#0" expanded="false" />
+                <element signature="e#4002#5601#0" expanded="false" />
+                <element signature="e#4457#4479#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myData2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/myData2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="83" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,8 +104,8 @@
       <file leaf-file-name="mainPage.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/mainPage.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="802">
-              <caret line="74" column="23" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
+            <state relative-caret-position="498">
+              <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -123,10 +141,13 @@
         <option value="$PROJECT_DIR$/src/tpls/tableData.html" />
         <option value="$PROJECT_DIR$/src/tpls/3dMap.html" />
         <option value="$PROJECT_DIR$/src/tpls/login.html" />
-        <option value="$PROJECT_DIR$/src/css/mainPage.css" />
         <option value="$PROJECT_DIR$/src/data/myData.php" />
-        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/tpls/user2.html" />
+        <option value="$PROJECT_DIR$/src/tpls/user1.html" />
         <option value="$PROJECT_DIR$/src/tpls/tableView.html" />
+        <option value="$PROJECT_DIR$/src/data/myData2.php" />
+        <option value="$PROJECT_DIR$/src/css/mainPage.css" />
+        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/js/app.js" />
       </list>
     </option>
@@ -167,7 +188,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -274,6 +294,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -288,6 +309,9 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\myWebSite\src\data" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\myWebSite\src" />
       <recent name="E:\myWebSite\src\js" />
@@ -388,16 +412,19 @@
       <workItem from="1488076702916" duration="13631000" />
       <workItem from="1488159280921" duration="16602000" />
       <workItem from="1488245143462" duration="22150000" />
-      <workItem from="1488333666213" duration="13030000" />
+      <workItem from="1488333666213" duration="13215000" />
+      <workItem from="1488415996501" duration="13114000" />
+      <workItem from="1488505958998" duration="640000" />
+      <workItem from="1488703457645" duration="383000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87005000" />
+    <option name="totallyTimeSpent" value="101327000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21917808" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -441,11 +468,12 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#49#0" expanded="false" />
-            <element signature="e#156#645#0" expanded="false" />
             <element signature="e#699#817#0" expanded="false" />
-            <element signature="e#876#1715#0" expanded="false" />
-            <element signature="e#1771#1775#0" expanded="false" />
-            <element signature="e#3108#3313#0" expanded="false" />
+            <element signature="e#876#2183#0" expanded="false" />
+            <element signature="e#2239#2243#0" expanded="false" />
+            <element signature="e#2951#3641#0" expanded="false" />
+            <element signature="e#4002#5601#0" expanded="false" />
+            <element signature="e#4457#4479#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -456,26 +484,15 @@
           <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#table#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/myData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/myData.php" />
     <entry file="file://$PROJECT_DIR$/src/tpls/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="26" column="103" selection-start-line="26" selection-start-column="84" selection-end-line="26" selection-end-column="103" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#2;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -501,11 +518,12 @@
           <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding>
             <element signature="e#0#49#0" expanded="false" />
-            <element signature="e#156#645#0" expanded="false" />
             <element signature="e#699#817#0" expanded="false" />
-            <element signature="e#876#1715#0" expanded="false" />
-            <element signature="e#1771#1775#0" expanded="false" />
-            <element signature="e#3108#3313#0" expanded="false" />
+            <element signature="e#876#2183#0" expanded="false" />
+            <element signature="e#2239#2243#0" expanded="false" />
+            <element signature="e#2951#3641#0" expanded="false" />
+            <element signature="e#4002#5601#0" expanded="false" />
+            <element signature="e#4457#4479#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -514,9 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#2;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -559,11 +574,12 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#49#0" expanded="false" />
-            <element signature="e#156#645#0" expanded="false" />
             <element signature="e#699#817#0" expanded="false" />
-            <element signature="e#876#1715#0" expanded="false" />
-            <element signature="e#1771#1775#0" expanded="false" />
-            <element signature="e#3108#3313#0" expanded="false" />
+            <element signature="e#876#2183#0" expanded="false" />
+            <element signature="e#2239#2243#0" expanded="false" />
+            <element signature="e#2951#3641#0" expanded="false" />
+            <element signature="e#4002#5601#0" expanded="false" />
+            <element signature="e#4457#4479#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -612,62 +628,77 @@
     <entry file="file://$PROJECT_DIR$/src/tpls/tableIndex.html" />
     <entry file="file://$PROJECT_DIR$/src/tpls/tableData.html" />
     <entry file="file://$PROJECT_DIR$/src/tpls/3dMap.html" />
-    <entry file="file://$PROJECT_DIR$/src/tpls/login.html">
+    <entry file="file://$PROJECT_DIR$/src/data/myData.php" />
+    <entry file="file://$PROJECT_DIR$/src/tpls/user1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="103" selection-start-line="26" selection-start-column="84" selection-end-line="26" selection-end-column="103" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#2;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tpls/user2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="57" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/myData2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="83" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/mainPage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="802">
-          <caret line="74" column="23" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/myData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="8" />
+        <state relative-caret-position="498">
+          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tpls/tableView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        <state relative-caret-position="114">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#table#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tpls/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="40" column="106" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="106" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="86" column="4" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
+        <state relative-caret-position="209">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
           <folding>
             <element signature="e#0#49#0" expanded="false" />
-            <element signature="e#156#645#0" expanded="false" />
             <element signature="e#699#817#0" expanded="false" />
-            <element signature="e#876#1715#0" expanded="false" />
-            <element signature="e#1771#1775#0" expanded="false" />
-            <element signature="e#3108#3313#0" expanded="false" />
+            <element signature="e#876#2183#0" expanded="false" />
+            <element signature="e#2239#2243#0" expanded="false" />
+            <element signature="e#2951#3641#0" expanded="false" />
+            <element signature="e#4002#5601#0" expanded="false" />
+            <element signature="e#4457#4479#0" expanded="false" />
           </folding>
         </state>
       </provider>
