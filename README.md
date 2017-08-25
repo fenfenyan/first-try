@@ -1,7 +1,5 @@
 # first-try
-I am 颜芬, this repository is a good start for coding,
-I will get my master degree in 2018,
-I am learing coding to make preparation for jobs, wish me lucky!
+一个登陆页面，效果：https://fenfenyan.github.io/first-try/src/
 
 学习知识点：
 
